@@ -1,0 +1,217 @@
+
+body{
+  padding:0px;
+    font-family: "Arial", Verdana, sans-serif;
+     line-height: 1.8;
+      font-size: 100%;
+      color:#2F2F2F;
+}
+
+h1, h2, h3, h4, p, li {
+  margin: 0 0 1rem 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+li {
+ font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+.titlec {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding-left: 0;
+  text-align: center;
+	color: #0077B6;
+}
+
+.pc {
+  font-size: 1.15em;
+  line-height: 1.7;
+  text-align: center;
+  color: #2F2F2F;
+  max-width: 700px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  font-weight: 400;
+}
+
+.fa-envelope{
+  color: red;
+  font-size: 24px;
+   text-decoration: none;
+}
+
+.fa-envelope:hover{
+  opacity: 0.7;
+}
+
+.fa-linkedin{
+  color:#3B5998;
+  font-size: 24px;
+}
+.fa-linkedin:hover{
+  opacity: 0.7;
+  text-decoration: none;
+}
+/* Google Scholar
+.fa-graduation-cap  {
+  color: #4285F4;
+  font-size: 24px;
+}
+.fa-graduation-cap:hover{
+  opacity: 0.7;
+}
+*/
+.fa-orcid  {
+  color: #A6CE39;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.fa-orcid:hover{
+  opacity:0.7;
+}
+
+/* Research Gate
+.fa-researchgate   {
+  color: #00CCBB;
+  font-size: 24px;
+}
+
+.fa-researchgate:hover{
+  opacity: 0.7;
+}*/
+
+
+
+.square{height:200px; /* format of article picture*/
+    width:200px;
+    /*border-radius:50%;*/
+    overflow:hidden;
+     display: block;
+     margin:auto;}
+
+
+
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-color: #FAFAFA;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.articlepicture{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 30%;
+}
+.articlepicture img {max-width: 100%; /* Ensures the image is responsive */}
+.figcaption{margin-top: 8px; /* Adds spacing between the image and caption */}
+
+.articletext{
+  flex: 70%;
+}
+
+
+@media (max-width: 768px) {
+  .article {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menus {
+    flex-direction: column;
+  }
+}
+.bio{
+  background-color: 	#F1F1F1;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.experience{padding-left: 10%;/* section to define margins*/
+  padding-right: 10%;
+  }
+
+footer{ 
+   color: grey;
+  width: 100%;
+  height:100%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+text-align:center;}
+
+.journal{
+   color: #2F2F2F;
+    font-style: italic;
+}
+
+
+.menus {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: #0077B6;
+  padding: 1rem;
+}
+
+.menu1:hover {
+  background-color: #005F8E;
+}
+.menu1{
+  text-align:center;
+   flex: 25%;
+   color:white;
+   text-decoration:none;
+   font-weight: bold;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 600px) {
+ .menu1 {
+    flex: 100%;
+  }
+}
+    
+.round{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background:#FCF5EF;
+    overflow:hidden;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
