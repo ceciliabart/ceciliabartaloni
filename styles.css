@@ -58,7 +58,7 @@ p {
 .fa-envelope{
   color: red;
   font-size: 24px;
-   text-decoration: none;
+text-decoration: none;
 }
 
 .fa-envelope:hover{
@@ -68,10 +68,10 @@ p {
 .fa-linkedin{
   color:#3B5998;
   font-size: 24px;
+	text-decoration: none;
 }
 .fa-linkedin:hover{
   opacity: 0.7;
-  text-decoration: none;
 }
 /* Google Scholar
 .fa-graduation-cap  {
