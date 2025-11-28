@@ -73,7 +73,7 @@ text-decoration: none;
 .fa-linkedin:hover{
   opacity: 0.7;
 }
-/* Google Scholar
+/* Google Scholar*/
 .fa-graduation-cap  {
   color: #4285F4;
   font-size: 24px;
@@ -81,7 +81,7 @@ text-decoration: none;
 .fa-graduation-cap:hover{
   opacity: 0.7;
 }
-*/
+
 .fa-orcid  {
   color: #A6CE39;
   font-size: 24px;
@@ -92,7 +92,7 @@ text-decoration: none;
   opacity:0.7;
 }
 
-/* Research Gate
+/* Research Gate*/
 .fa-researchgate   {
   color: #00CCBB;
   font-size: 24px;
@@ -100,7 +100,7 @@ text-decoration: none;
 
 .fa-researchgate:hover{
   opacity: 0.7;
-}*/
+}
 
 
 
@@ -214,4 +214,5 @@ text-align:center;}
   margin-left: auto;
   margin-right: auto;
 }
+
 
